@@ -1,5 +1,5 @@
 from django.db import models
-from imagekit.models import ImageSpecField
+
 
 # Create your models here.
 class Category(models.Model):
@@ -41,9 +41,7 @@ class Image(models.Model):
     image_description = models.TextField()
     image_category = models.ForeignKey(Category,on_delete = models.CASCADE)
     image_location = models.ForeignKey(Location,on_delete = models.CASCADE)
-    image_thumbnail = ImageSpecField(source='image',processors=[ResizeToFill(100, 50)],
-                                      format='JPEG',
-                                      options={'quality': 60})
+    
 
 
     def save_image(self):
