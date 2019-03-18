@@ -1,13 +1,16 @@
 {% extends 'base.html' %}
 {% block content %}
 {{block.super}}
-<div class="container" style="background-color:rgb(185, 216, 164);">
-  <h1 class="text-center" style="color:rgb(68, 156, 214);">Welcome to My Gallery</h1>
+<div class="container">
+    <marquee behavior="alternate" direction="left"><img src="//www.html.am/images/html-codes/marquees/fish-swimming.gif" width="94" height="88" alt="Swimming fish" /></marquee>
+
+  <h1 class="text-center" style="color:rgb(3, 5, 7);"><marquee behavior="slide" direction="left">Welcome to My Gallery</marquee></h1>
   <div class="row">
     {% for image in images %}
     <div class="col-md-4">
-        <img style=" margin-top: 20px; margin-bottom: 20px; width:350px; height:300px;" src="{{image.image.url}}" class="img-thumbnail" alt="Image" data-toggle="modal" data-target="#{{image.id}}">
-
+      <img style=" margin-top: 20px; margin-bottom: 20px; width:350px; height:300px;" src="{{image.image.url}}" class="img-thumbnail photo"alt="Image" data-toggle="modal" data-target="#{{image.id}}">
+      <p style="color:white;font-size:20px">“When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.”
+          — <strong>Ansel Adams<</strong>/p>
       <!-- Image Details modal -->
 
       <div class="modal fade" id="{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="imageTitle" aria-hidden="true">
