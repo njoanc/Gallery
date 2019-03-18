@@ -9,6 +9,13 @@
   /* animation-duration: 4s; */
   animation-duration: 5s;
   animation-iteration-count: 3;
+  animation-direction: alternate-reverse;
+  animation-fill-mode: forwards;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+
 }
 
 /* Safari 4.0 - 8.0 */
