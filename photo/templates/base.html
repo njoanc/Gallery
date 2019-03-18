@@ -12,6 +12,17 @@
 
     {% block styles %}
       {% bootstrap_css %}
+      <style>
+        img.smallscreen { display: none; }
+        @media only screen and (max-width: 320px) {
+            img { 
+                display: none; 
+            }
+            img.smallscreen { 
+                display: inline; 
+            }
+        }
+      </style>
       <link rel="stylesheet" href="{% static 'CSS/basephoto.css' %}">
     {% endblock %}
   </head>
@@ -25,3 +36,9 @@
    {% endblock %}
   </body>
 </html>
+<footer>
+  <img src="img/facebook-wrap.png" alt="">
+  <img src="img/twitter-wrap.png" alt="">
+  <center>&copy; Jeanne d'Arc NYIRAMWIZA.</center>
+  
+</footer>

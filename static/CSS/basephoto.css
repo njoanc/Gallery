@@ -31,7 +31,43 @@
 @keyframes example {
   0%   {background-color:rgb(68, 53, 53); left:0px; top:0px;}
   25%  {background-color:yellow; left:200px; top:0px;}
-  50%  {background-color:rgb(54, 241, 85); left:200px; top:200px;}
+  /* 50%  {background-color:rgb(54, 241, 85); left:200px; top:200px;} */
   75%  {background-color:green; left:0px; top:200px;}
   100% {background-color:rgb(66, 58, 58); left:0px; top:0px;}
 }
+.footer img {
+  max-width: 100%;
+  background-position: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
+  }
+/* *{
+  background-image:url("https://petapixel.com/assets/uploads/2014/05/photoquote1.jpg ")
+
+} */
+body {
+  /* Location of the image */
+  background-image: url(https://bit.ly/2ucAhdh);
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
