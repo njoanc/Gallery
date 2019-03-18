@@ -2,7 +2,7 @@
 {% load static %}
 <!DOCTYPE html>
 <html>
-  <head>
+  <head >
     <meta charset="utf-8">
     {% if title %}
       <title>Gallery - {{title}}</title>
@@ -26,7 +26,7 @@
       <link rel="stylesheet" href="{% static 'CSS/basephoto.css' %}">
     {% endblock %}
   </head>
-  <body style="background-color:#F5F5F5;">
+  <body style="background-color:rgb(162, 171, 173);">
     {% include 'navbar.html' %}
     {% block content %}
     {% endblock %}
