@@ -19,5 +19,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^photo/',include('photo.urls'))
+    url(r'',include('photo.urls')),
+    # url(r'^gallery/', include('gallery.urls', namespace='gallery', app_name='gallery'))
+
 ]
