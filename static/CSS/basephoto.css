@@ -1,24 +1,3 @@
-.photo {
-  width: 100px;
-  height: 100px;
-  background-color: rgb(160, 149, 149);
-  position: relative;
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  animation-name: example;
-  /* animation-duration: 4s; */
-  animation-duration: 5s;
-  animation-iteration-count: 3;
-  animation-direction: alternate-reverse;
-  animation-fill-mode: forwards;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  z-index: -1;
-
-}
-
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes example {
   0%   {background-color:rgb(114, 84, 84); left:0px; top:0px;}
@@ -47,11 +26,10 @@
   }
 /* *{
   background-image:url("https://petapixel.com/assets/uploads/2014/05/photoquote1.jpg ")
-
 } */
 body {
   /* Location of the image */
-  background-image: url(https://bit.ly/2ucAhdh);
+  background-image: url(https://bit.ly/2Fmm97z);
   
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -69,6 +47,5 @@ body {
   
   /* Set a background color that will be displayed
      while the background image is loading */
-  background-color: #464646;
+  /* background-color: #464646; */
 }
-

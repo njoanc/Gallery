@@ -9,8 +9,12 @@
     {% for image in images %}
     <div class="col-md-4">
       <img style=" margin-top: 20px; margin-bottom: 20px; width:350px; height:300px;" src="{{image.image.url}}" class="img-thumbnail photo"alt="Image" data-toggle="modal" data-target="#{{image.id}}">
-      <p style="color:white;font-size:20px">“When words become unclear, I shall focus with photographs. When images become inadequate, I shall be content with silence.”
-          — <strong>Ansel Adams</strong></p>
+      <br>
+      <strong>Location:</strong>{{image.image_location}}
+      <br>
+      <strong>Category:</strong>{{image.image_category}}
+      <br>
+      <strong>Description:</strong>{{image.image_description}}
       <!-- Image Details modal -->
 
       <div class="modal fade" id="{{image.id}}" tabindex="-1" role="dialog" aria-labelledby="imageTitle" aria-hidden="true">
