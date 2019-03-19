@@ -1,0 +1,9 @@
+SECRET_KEY='*vv7_4r^_x92o=ef#%99)-qdfh((g+tt837x&_1z^idgi+r)v'
+DEBUG=False
+DB_NAME='photo'
+DB_USER='wecode'
+DB_PASSWORD='kazubajoanna'
+DB_HOST='127.0.0.1'
+MODE='prod'
+ALLOWED_HOSTS='kazuo.herokuapp.com'
+DISABLE_COLLECTSTATIC=1
