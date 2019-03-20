@@ -41,6 +41,7 @@ To run this program
 * run this command lines in your terminal:
 * `python manage.py runserver`
 * access the application on this localhost address `http://127.0.0.1:8000`
+or heroku link: https://gallery123.herokuapp.com/
 
 ## Prerequisites
 You need the following to work on the project:
