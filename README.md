@@ -1,7 +1,7 @@
 # Gallery
 # Personal Gallery App
 #### A personal gallery application that one displays their photos for others to see.
-#### By **Jacqueline Kayitesi**
+#### By **Jeanne d'Arc NYIRAMWIZA**
 ## Description
 A personal gallery application that one displays their photos for others to see who can copy the photos' links and share them.
 ## Behavior Driven Development
